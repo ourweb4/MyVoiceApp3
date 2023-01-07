@@ -30,8 +30,14 @@ D:\vsprojects\MyVoiceApp3\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microso
 D:\vsprojects\MyVoiceApp3\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.System.Projection.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Newtonsoft.Json.dll
+D:\vsprojects\MyVoiceApp3\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SQLite-net.dll
+D:\vsprojects\MyVoiceApp3\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.batteries_v2.dll
+D:\vsprojects\MyVoiceApp3\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.nativelibrary.dll
+D:\vsprojects\MyVoiceApp3\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.core.dll
+D:\vsprojects\MyVoiceApp3\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.provider.dynamic_cdecl.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.Canvas.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.dll
+D:\vsprojects\MyVoiceApp3\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\e_sqlite3.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.CSharp.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.VisualBasic.Core.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.VisualBasic.dll

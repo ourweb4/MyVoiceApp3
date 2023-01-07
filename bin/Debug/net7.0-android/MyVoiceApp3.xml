@@ -4,5 +4,159 @@
         <name>MyVoiceApp3</name>
     </assembly>
     <members>
+        <member name="P:MyVoiceApp3.Models.Group.Id">
+            <summary>
+            Gets or sets the identifier.
+            </summary>
+            <value>The identifier.</value>
+        </member>
+        <member name="P:MyVoiceApp3.Models.Group.Name">
+            <summary>
+            Gets or sets the name.
+            </summary>
+            <value>The name.</value>
+        </member>
+        <member name="P:MyVoiceApp3.Models.Group.Order">
+            <summary>
+            Gets or sets the order.
+            </summary>
+            <value>The order.</value>
+        </member>
+        <member name="T:MyVoiceApp3.Models.User">
+            <summary>
+            Class User.{CC2D43FA-BBC4-448A-9D0B-7B57ADF2655C}
+            </summary>
+        </member>
+        <member name="P:MyVoiceApp3.Models.User.Id">
+            <summary>
+            Gets or sets the identifier.
+            </summary>
+            <value>The identifier.</value>
+        </member>
+        <member name="P:MyVoiceApp3.Models.User.Name">
+            <summary>
+            Gets or sets the name.
+            </summary>
+            <value>The name.</value>
+        </member>
+        <member name="P:MyVoiceApp3.Models.User.Email">
+            <summary>
+            Gets or sets the email.
+            </summary>
+            <value>The email.</value>
+        </member>
+        <member name="P:MyVoiceApp3.Models.User.EmailVerifiedAt">
+            <summary>
+            Gets or sets the email verified at.
+            </summary>
+            <value>The email verified at.</value>
+        </member>
+        <member name="P:MyVoiceApp3.Models.User.Firstname">
+            <summary>
+            Gets or sets the firstname.
+            </summary>
+            <value>The firstname.</value>
+        </member>
+        <member name="P:MyVoiceApp3.Models.User.Lastname">
+            <summary>
+            Gets or sets the lastname.
+            </summary>
+            <value>The lastname.</value>
+        </member>
+        <member name="P:MyVoiceApp3.Models.User.Address">
+            <summary>
+            Gets or sets the address.
+            </summary>
+            <value>The address.</value>
+        </member>
+        <member name="P:MyVoiceApp3.Models.User.City">
+            <summary>
+            Gets or sets the city.
+            </summary>
+            <value>The city.</value>
+        </member>
+        <member name="P:MyVoiceApp3.Models.User.State">
+            <summary>
+            Gets or sets the state.
+            </summary>
+            <value>The state.</value>
+        </member>
+        <member name="P:MyVoiceApp3.Models.User.Zipcode">
+            <summary>
+            Gets or sets the zipcode.
+            </summary>
+            <value>The zipcode.</value>
+        </member>
+        <member name="P:MyVoiceApp3.Models.User.Phonenumber">
+            <summary>
+            Gets or sets the phonenumber.
+            </summary>
+            <value>The phonenumber.</value>
+        </member>
+        <member name="P:MyVoiceApp3.Models.User.Version">
+            <summary>
+            Gets or sets the version.
+            </summary>
+            <value>The version.</value>
+        </member>
+        <member name="P:MyVoiceApp3.Models.User.Os">
+            <summary>
+            Gets or sets the os.
+            </summary>
+            <value>The os.</value>
+        </member>
+        <member name="P:MyVoiceApp3.Models.User.Acctype">
+            <summary>
+            Gets or sets the acctype.
+            </summary>
+            <value>The acctype.</value>
+        </member>
+        <member name="P:MyVoiceApp3.Models.User.CreatedAt">
+            <summary>
+            Gets or sets the created at.
+            </summary>
+            <value>The created at.</value>
+        </member>
+        <member name="P:MyVoiceApp3.Models.User.UpdatedAt">
+            <summary>
+            Gets or sets the updated at.
+            </summary>
+            <value>The updated at.</value>
+        </member>
+        <member name="T:MyVoiceApp3.Models.Word">
+            <summary>
+            Class Word.
+            </summary>
+        </member>
+        <member name="P:MyVoiceApp3.Models.Word.Id">
+            <summary>
+            Gets or sets the identifier.
+            </summary>
+            <value>The identifier.</value>
+        </member>
+        <member name="P:MyVoiceApp3.Models.Word.Order">
+            <summary>
+            Gets or sets the order.
+            </summary>
+            <value>The order.</value>
+        </member>
+        <member name="P:MyVoiceApp3.Models.Word.Title">
+            <summary>
+            Gets or sets the title.
+            </summary>
+            <value>The title.</value>
+        </member>
+        <member name="P:MyVoiceApp3.Models.Word.Phrase">
+            <summary>
+            Gets or sets the phrase.
+            </summary>
+            <value>The phrase.</value>
+        </member>
+        <member name="P:MyVoiceApp3.Models.Word.Group_Id">
+            <summary>
+            Gets or sets the group identifier.
+            </summary>
+            <value>The group identifier.</value>
+        </member>
     </members>
 </doc>

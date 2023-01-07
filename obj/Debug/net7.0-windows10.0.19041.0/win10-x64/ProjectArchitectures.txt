@@ -1,1 +1,0 @@
-D:\vsprojects\MyVoiceApp3\MyVoiceApp3.csproj;x64

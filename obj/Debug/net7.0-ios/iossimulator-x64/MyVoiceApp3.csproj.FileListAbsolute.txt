@@ -12,6 +12,11 @@ D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.Extens
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.Extensions.Primitives.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.Maui.Graphics.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-ios\iossimulator-x64\Newtonsoft.Json.dll
+D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-ios\iossimulator-x64\SQLite-net.dll
+D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-ios\iossimulator-x64\SQLitePCLRaw.batteries_v2.dll
+D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-ios\iossimulator-x64\SQLitePCLRaw.nativelibrary.dll
+D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-ios\iossimulator-x64\SQLitePCLRaw.core.dll
+D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-ios\iossimulator-x64\SQLitePCLRaw.provider.dynamic_cdecl.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.CSharp.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.VisualBasic.Core.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.VisualBasic.dll
