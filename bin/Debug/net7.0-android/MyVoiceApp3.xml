@@ -4,6 +4,11 @@
         <name>MyVoiceApp3</name>
     </assembly>
     <members>
+        <member name="T:MyVoiceApp3.Models.Group">
+            <summary>
+            Class Group.
+            </summary>
+        </member>
         <member name="P:MyVoiceApp3.Models.Group.Id">
             <summary>
             Gets or sets the identifier.
@@ -24,7 +29,7 @@
         </member>
         <member name="T:MyVoiceApp3.Models.User">
             <summary>
-            Class User.{CC2D43FA-BBC4-448A-9D0B-7B57ADF2655C}
+            Class User.
             </summary>
         </member>
         <member name="P:MyVoiceApp3.Models.User.Id">
@@ -157,6 +162,375 @@
             Gets or sets the group identifier.
             </summary>
             <value>The group identifier.</value>
+        </member>
+        <member name="T:MyVoiceApp3.Utitlys.Api">
+            <summary>
+            Class Api.
+            </summary>
+        </member>
+        <member name="F:MyVoiceApp3.Utitlys.Api.client">
+            <summary>
+            The client
+            </summary>
+        </member>
+        <member name="F:MyVoiceApp3.Utitlys.Api.status">
+            <summary>
+            The status
+            </summary>
+        </member>
+        <member name="F:MyVoiceApp3.Utitlys.Api.message">
+            <summary>
+            The message
+            </summary>
+        </member>
+        <member name="M:MyVoiceApp3.Utitlys.Api.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MyVoiceApp3.Utitlys.Api" /> class.
+            </summary>
+        </member>
+        <member name="M:MyVoiceApp3.Utitlys.Api.IsOk">
+            <summary>
+            Determines whether this instance is ok.
+            </summary>
+            <returns><c>true</c> if this instance is ok; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:MyVoiceApp3.Utitlys.Api.setheader">
+            <summary>
+            Setheaders this instance.
+            </summary>
+        </member>
+        <member name="M:MyVoiceApp3.Utitlys.Api.aUri(System.String)">
+            <summary>
+            as the URI.
+            </summary>
+            <param name="endpoint">The endpoint.</param>
+            <returns>Uri.</returns>
+        </member>
+        <member name="M:MyVoiceApp3.Utitlys.Api.Login(MyVoiceApp3.ViewModels.LoginVM)">
+            <summary>
+            Logins the specified login.
+            </summary>
+            <param name="login">The login.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MyVoiceApp3.Utitlys.Api.Logout">
+            <summary>
+            Logouts this instance.
+            </summary>
+        </member>
+        <member name="M:MyVoiceApp3.Utitlys.Api.Register(MyVoiceApp3.ViewModels.RegisterVM)">
+            <summary>
+            Registers the specified register.
+            </summary>
+            <param name="register">The register.</param>
+            <returns>Task&lt;System.String&gt;.</returns>
+        </member>
+        <member name="M:MyVoiceApp3.Utitlys.Api.Api_error(System.Net.HttpStatusCode)">
+            <summary>
+            APIs the error.
+            </summary>
+            <param name="status">The status.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:MyVoiceApp3.Utitlys.Api.GetUser">
+            <summary>
+            Gets the user.
+            </summary>
+            <returns>User.</returns>
+        </member>
+        <member name="M:MyVoiceApp3.Utitlys.Api.SaveUser(MyVoiceApp3.Models.User)">
+            <summary>
+            Saves the user.
+            </summary>
+            <param name="user">The user.</param>
+        </member>
+        <member name="T:MyVoiceApp3.Utitlys.CheckEmeil">
+            <summary>
+            Class CheckEmeil.
+            </summary>
+        </member>
+        <member name="M:MyVoiceApp3.Utitlys.CheckEmeil.IsValidEmail(System.String)">
+            <summary>
+            Determines whether [is valid email] [the specified email].
+            </summary>
+            <param name="email">The email.</param>
+            <returns><c>true</c> if [is valid email] [the specified email]; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="T:MyVoiceApp3.Utitlys.Database">
+            <summary>
+            Class Database.
+            </summary>
+        </member>
+        <member name="F:MyVoiceApp3.Utitlys.Database.conn">
+            <summary>
+            The connection
+            </summary>
+        </member>
+        <member name="M:MyVoiceApp3.Utitlys.Database.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MyVoiceApp3.Utitlys.Database" /> class.
+            </summary>
+        </member>
+        <member name="M:MyVoiceApp3.Utitlys.Database.ReadWords(System.Int32)">
+            <summary>
+            Reads the words.
+            </summary>
+            <param name="gno">The gno.</param>
+            <returns>IList&lt;Word&gt;.</returns>
+        </member>
+        <member name="M:MyVoiceApp3.Utitlys.Database.WriteWord(MyVoiceApp3.Models.Word)">
+            <summary>
+            Writes the word.
+            </summary>
+            <param name="rec">The record.</param>
+            <returns>System.Int32.</returns>
+        </member>
+        <member name="M:MyVoiceApp3.Utitlys.Database.DeleteWord(MyVoiceApp3.Models.Word)">
+            <summary>
+            Deletes the word.
+            </summary>
+            <param name="rec">The record.</param>
+        </member>
+        <member name="M:MyVoiceApp3.Utitlys.Database.ReadGroups">
+            <summary>
+            Reads the groups.
+            </summary>
+            <returns>IList&lt;Group&gt;.</returns>
+        </member>
+        <member name="M:MyVoiceApp3.Utitlys.Database.WriteGroup(MyVoiceApp3.Models.Group)">
+            <summary>
+            Writes the group.
+            </summary>
+            <param name="rec">The record.</param>
+            <returns>System.Int32.</returns>
+        </member>
+        <member name="M:MyVoiceApp3.Utitlys.Database.DeleteGroup(MyVoiceApp3.Models.Group)">
+            <summary>
+            Deletes the group.
+            </summary>
+            <param name="rec">The record.</param>
+        </member>
+        <member name="M:MyVoiceApp3.Utitlys.Database.Finalize">
+            <summary>
+            Finalizes an instance of the <see cref="T:MyVoiceApp3.Utitlys.Database" /> class.
+            </summary>
+        </member>
+        <member name="T:MyVoiceApp3.Utitlys.Message_Box">
+            <summary>
+            Enum Message_Box
+            </summary>
+        </member>
+        <member name="F:MyVoiceApp3.Utitlys.Message_Box.Blankfield">
+            <summary>
+            The blankfield
+            </summary>
+        </member>
+        <member name="F:MyVoiceApp3.Utitlys.Message_Box.Notemail">
+            <summary>
+            The notemail
+            </summary>
+        </member>
+        <member name="F:MyVoiceApp3.Utitlys.Message_Box.Badlogin">
+            <summary>
+            The badlogin
+            </summary>
+        </member>
+        <member name="F:MyVoiceApp3.Utitlys.Message_Box.Emailinused">
+            <summary>
+            The emailinused
+            </summary>
+        </member>
+        <member name="F:MyVoiceApp3.Utitlys.Message_Box.Saved">
+            <summary>
+            The saved
+            </summary>
+        </member>
+        <member name="F:MyVoiceApp3.Utitlys.Message_Box.Deleted">
+            <summary>
+            The deleted
+            </summary>
+        </member>
+        <member name="F:MyVoiceApp3.Utitlys.Message_Box.Read">
+            <summary>
+            The read
+            </summary>
+        </member>
+        <member name="F:MyVoiceApp3.Utitlys.Message_Box.Error">
+            <summary>
+            The error
+            </summary>
+        </member>
+        <member name="T:MyVoiceApp3.Utitlys.ErrPopup">
+            <summary>
+            Class Popup.
+            </summary>
+        </member>
+        <member name="F:MyVoiceApp3.Utitlys.ErrPopup._Box">
+            <summary>
+            The box
+            </summary>
+        </member>
+        <member name="F:MyVoiceApp3.Utitlys.ErrPopup.message">
+            <summary>
+            The message
+            </summary>
+        </member>
+        <member name="F:MyVoiceApp3.Utitlys.ErrPopup.cancellationTokenSource">
+            <summary>
+            The cancellation token source
+            </summary>
+        </member>
+        <member name="M:MyVoiceApp3.Utitlys.ErrPopup.#ctor(MyVoiceApp3.Utitlys.Message_Box)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MyVoiceApp3.Utitlys.Popup"/> class.
+            </summary>
+            <param name="message_Box">The message box.</param>
+        </member>
+        <member name="M:MyVoiceApp3.Utitlys.ErrPopup.Convert">
+            <summary>
+            Converts this instance.
+            </summary>
+        </member>
+        <member name="M:MyVoiceApp3.Utitlys.ErrPopup.Show">
+            <summary>
+            Shows this instance.
+            </summary>
+            
+        </member>
+        <member name="T:MyVoiceApp3.Utitlys.MessageBox">
+            <summary>
+            Enum Message_Box
+            </summary>
+        </member>
+        <member name="F:MyVoiceApp3.Utitlys.MessageBox.Blankfield">
+            <summary>
+            The blankfield
+            </summary>
+        </member>
+        <member name="F:MyVoiceApp3.Utitlys.MessageBox.Notemail">
+            <summary>
+            The notemail
+            </summary>
+        </member>
+        <member name="F:MyVoiceApp3.Utitlys.MessageBox.Badlogin">
+            <summary>
+            The badlogin
+            </summary>
+        </member>
+        <member name="F:MyVoiceApp3.Utitlys.MessageBox.Emailinused">
+            <summary>
+            The emailinused
+            </summary>
+        </member>
+        <member name="F:MyVoiceApp3.Utitlys.MessageBox.Saved">
+            <summary>
+            The saved
+            </summary>
+        </member>
+        <member name="F:MyVoiceApp3.Utitlys.MessageBox.Deleted">
+            <summary>
+            The deleted
+            </summary>
+        </member>
+        <member name="F:MyVoiceApp3.Utitlys.MessageBox.Read">
+            <summary>
+            The read
+            </summary>
+        </member>
+        <member name="F:MyVoiceApp3.Utitlys.MessageBox.Error">
+            <summary>
+            The error
+            </summary>
+        </member>
+        <member name="T:MyVoiceApp3.Utitlys.Popup">
+            <summary>
+            Class Popup.
+            </summary>
+        </member>
+        <member name="F:MyVoiceApp3.Utitlys.Popup._Box">
+            <summary>
+            The box
+            </summary>
+        </member>
+        <member name="F:MyVoiceApp3.Utitlys.Popup.message">
+            <summary>
+            The message
+            </summary>
+        </member>
+        <member name="F:MyVoiceApp3.Utitlys.Popup.cancellationTokenSource">
+            <summary>
+            The cancellation token source
+            </summary>
+        </member>
+        <member name="M:MyVoiceApp3.Utitlys.Popup.#ctor(MyVoiceApp3.Utitlys.MessageBox)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MyVoiceApp3.Utitlys.Popup"/> class.
+            </summary>
+            <param name="message_Box">The message box.</param>
+        </member>
+        <member name="M:MyVoiceApp3.Utitlys.Popup.Convert">
+            <summary>
+            Converts this instance.
+            </summary>
+        </member>
+        <member name="T:MyVoiceApp3.ViewModels.Apinet">
+            <summary>
+            Class Api.
+            </summary>
+        </member>
+        <member name="P:MyVoiceApp3.ViewModels.Apinet.User">
+            <summary>
+            Gets or sets the user.
+            </summary>
+            <value>The user.</value>
+        </member>
+        <member name="P:MyVoiceApp3.ViewModels.Apinet.Token">
+            <summary>
+            Gets or sets the token.
+            </summary>
+            <value>The token.</value>
+        </member>
+        <member name="T:MyVoiceApp3.ViewModels.LoginVM">
+            <summary>
+            Class LoginVM.
+            </summary>
+        </member>
+        <member name="F:MyVoiceApp3.ViewModels.LoginVM.email">
+            <summary>
+            The email
+            </summary>
+        </member>
+        <member name="F:MyVoiceApp3.ViewModels.LoginVM.password">
+            <summary>
+            The password
+            </summary>
+        </member>
+        <member name="T:MyVoiceApp3.ViewModels.RegisterVM">
+            <summary>
+            Class RegisterVM.
+            </summary>
+        </member>
+        <member name="P:MyVoiceApp3.ViewModels.RegisterVM.fristname">
+            <summary>
+            Gets or sets the fristname.
+            </summary>
+            <value>The fristname.</value>
+        </member>
+        <member name="P:MyVoiceApp3.ViewModels.RegisterVM.lastname">
+            <summary>
+            Gets or sets the lastname.
+            </summary>
+            <value>The lastname.</value>
+        </member>
+        <member name="P:MyVoiceApp3.ViewModels.RegisterVM.email">
+            <summary>
+            The email
+            </summary>
+        </member>
+        <member name="P:MyVoiceApp3.ViewModels.RegisterVM.password">
+            <summary>
+            The password
+            </summary>
         </member>
     </members>
 </doc>

@@ -2,10 +2,13 @@
 
 public partial class App : Application
 {
-	public App()
-	{
-		InitializeComponent();
+    public const string website = "https://ourvoiceapp.com";
 
-		MainPage = new AppShell();
-	}
+    public App()
+    {
+        InitializeComponent();
+        VersionTracking.Track();
+
+        MainPage = new AppShell();
+    }
 }

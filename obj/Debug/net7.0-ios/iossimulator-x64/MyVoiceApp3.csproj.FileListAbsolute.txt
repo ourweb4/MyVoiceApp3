@@ -273,3 +273,4 @@ D:\vsprojects\MyVoiceApp3\obj\Debug\net7.0-ios\iossimulator-x64\refint\MyVoiceAp
 D:\vsprojects\MyVoiceApp3\obj\Debug\net7.0-ios\iossimulator-x64\MyVoiceApp3.pdb
 D:\vsprojects\MyVoiceApp3\obj\Debug\net7.0-ios\iossimulator-x64\MyVoiceApp3.genruntimeconfig.cache
 D:\vsprojects\MyVoiceApp3\obj\Debug\net7.0-ios\iossimulator-x64\ref\MyVoiceApp3.dll
+D:\vsprojects\MyVoiceApp3\obj\Debug\net7.0-ios\iossimulator-x64\build-signature\signature
