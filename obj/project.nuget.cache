@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "LirKsxDn8IHRVbACoRu/AGrZRCAI053pcef584Z8OG97kE+ZK69O7uWBV+xPb2IXWenOnBzatAW2hL7mjMgRcQ==",
+  "dgSpecHash": "uM9SwMxfYpZdaa/CdEUlOxZfYl7NyldtLYeO94+lTrwXUbuvjAAzAsc4TSbVRchFTbDRsdvf8nOFXM1idQ+NnA==",
   "success": true,
   "projectFilePath": "D:\\vsprojects\\MyVoiceApp3\\MyVoiceApp3.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Bill\\.nuget\\packages\\communitytoolkit.maui\\3.1.0\\communitytoolkit.maui.3.1.0.nupkg.sha512",
+    "C:\\Users\\Bill\\.nuget\\packages\\communitytoolkit.maui.core\\3.1.0\\communitytoolkit.maui.core.3.1.0.nupkg.sha512",
     "C:\\Users\\Bill\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\Bill\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
     "C:\\Users\\Bill\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",

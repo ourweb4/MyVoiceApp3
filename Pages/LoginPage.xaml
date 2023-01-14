@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyVoiceApp3.Pages.LoginPage"  Title="LoginPage"
+             xmlns:ViewModel="clr-namespace:MyVoiceApp3.ViewModels"
+             x:DataType="ViewModel:LoginVM"
+             Shell.FlyoutBehavior="Disabled"
+             Shell.NavBarIsVisible="False">
+        <ContentPage.Padding>
+            <OnPlatform x:TypeArguments="Thickness">
+                <OnPlatform.Platforms>
+                    <On Platform="iOS" Value="0, 20, 0, 0" />
+                    <On Platform="Android" Value="0, 0, 0, 0" />
+                    <On Platform="UWP" Value="0, 0, 0, 0" />
+                </OnPlatform.Platforms>
+            </OnPlatform>
+        </ContentPage.Padding>
+
+        <StackLayout VerticalOptions="CenterAndExpand" >
+        <Entry Placeholder="Email"
+
+               Text="{Binding Email}" />
+        <Entry Placeholder="Password"
+     
+               Text="{Binding Password}" />
+
+        <Button x:Name="btnlogin"
+                Text="Login" 
+                Clicked="btnlogin_Clicked" />
+        <Button x:Name="btnregister"
+                Text="Registar"
+                Clicked="btnregister_Clicked" />
+        <Button x:Name="btnnologin"
+                Text="No Login"
+                Clicked="btnnologin_Clicked" />
+
+    </StackLayout>
+</ContentPage>

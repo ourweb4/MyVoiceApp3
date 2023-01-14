@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                  xmlns:ViewModel="clr-namespace:MyVoiceApp3.Models"
+              x:DataType="ViewModel:User"
+             x:Class="MyVoiceApp3.Pages.UserPage">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <OnPlatform.Platforms>
+                <On Platform="iOS" Value="0, 20, 0, 0" />
+                <On Platform="Android" Value="0, 0, 0, 0" />
+                <On Platform="UWP" Value="0, 0, 0, 0" />
+            </OnPlatform.Platforms>
+        </OnPlatform>
+    </ContentPage.Padding>
+
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand">
+            <StackLayout Orientation="Horizontal">
+                <Entry Placeholder="First name"
+                      Text="{Binding Firstname}" />
+                <Entry Placeholder="Last name"
+                       Text="{Binding Lastname}" />
+            </StackLayout>
+            <Entry Placeholder="Address"
+                   Text="{Binding Address}" />
+
+
+            <StackLayout Orientation="Horizontal">
+                <Entry Placeholder="City"
+                   Text="{Binding City}" />
+                <Entry Placeholder="State"
+                       Text="{Binding State}" />
+                <Entry Placeholder="Zipcode"
+                       Text="{Binding Zipcode}" />
+            </StackLayout>
+            <Entry Placeholder="Phone"
+                   Keyboard="Telephone"
+                   Text="{Binding Phonenumber}" />
+
+            <Button x:Name="btnsave"
+                    Text="Save"
+                     Clicked="btnsave_Clicked" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
