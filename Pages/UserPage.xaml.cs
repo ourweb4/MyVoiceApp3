@@ -72,7 +72,7 @@ namespace MyVoiceApp3.Pages
         {
             App_Info();
             await api.SaveUser(user);
-            //  Shell.Current.GoToAsync($"//{nameof(TalkPage)}");
+            await Shell.Current.GoToAsync($"//{nameof(TalkPage)}");
 
         }
     }

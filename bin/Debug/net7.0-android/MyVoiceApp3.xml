@@ -211,6 +211,54 @@
             <param name="sender">The source of the event.</param>
             <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
         </member>
+        <member name="F:MyVoiceApp3.Pages.TalkPage.db">
+            <summary>
+            The database
+            </summary>
+        </member>
+        <member name="F:MyVoiceApp3.Pages.TalkPage.words">
+            <summary>
+            The words
+            </summary>
+        </member>
+        <member name="M:MyVoiceApp3.Pages.TalkPage.ListWords_OnItemSelected(System.Object,Microsoft.Maui.Controls.SelectedItemChangedEventArgs)">
+            <summary>
+            Handles the OnItemSelected event of the ListWords control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:Microsoft.Maui.Controls.SelectedItemChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MyVoiceApp3.Pages.TalkPage.OnAppearing">
+            <summary>
+            When overridden, allows application developers to customize behavior immediately prior to the <see cref="T:Xamarin.Forms.Page" /> becoming visible.
+            </summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:MyVoiceApp3.Pages.TalkPage.SpeakNow(System.String)">
+            <summary>
+            Speaks the now.
+            </summary>
+            <param name="words">The words.</param>
+        </member>
+        <member name="M:MyVoiceApp3.Pages.TalkPage.Buttalk_Clicked(System.Object,System.EventArgs)">
+            <summary>
+            Handles the OnClicked event of the Buttalk control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MyVoiceApp3.Pages.TalkPage.ListWords_OnItemTapped(System.Object,Microsoft.Maui.Controls.ItemTappedEventArgs)">
+            <summary>
+            Handles the OnItemTapped event of the ListWords control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:Microsoft.Maui.Controls.ItemTappedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MyVoiceApp3.Pages.TalkPage.ReadDB">
+            <summary>
+            Reads the database.
+            </summary>
+        </member>
         <member name="T:MyVoiceApp3.Utitlys.Api">
             <summary>
             Class Api.

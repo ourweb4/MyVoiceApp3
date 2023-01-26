@@ -4,7 +4,7 @@
 // Created          : 03-15-2019
 //
 // Last Modified By : Bill Banks
-// Last Modified On : 11-29-2022
+// Last Modified On : 01-21-2023
 // ***********************************************************************
 // <copyright file="Database.cs" company="MyVoiceApp">
 //     Copyright (c) Ourweb.net. All rights reserved.
@@ -46,7 +46,7 @@ namespace MyVoiceApp3.Utitlys
 
             // Tables
             conn.CreateTable<Word>();
-            //   conn.CreateTable<Group>();
+              conn.CreateTable<Group>();
         }
 
         // Word Access
@@ -56,10 +56,10 @@ namespace MyVoiceApp3.Utitlys
         /// </summary>
         /// <param name="gno">The gno.</param>
         /// <returns>IList&lt;Word&gt;.</returns>
-        public IList<Word> ReadWords(int gno = 0)
+        public IList<Word> ReadWords(int gno = -1)
         {
             IList<Word> Words = new List<Word>();
-            if (gno == 0)
+            if (gno == -1)
             {
                 Words = conn.Table<Word>()
                     .OrderBy(e => e.Order)
@@ -113,14 +113,15 @@ namespace MyVoiceApp3.Utitlys
         /// Reads the groups.
         /// </summary>
         /// <returns>IList&lt;Group&gt;.</returns>
-        public IList<Group> ReadGroups()
+        public List<Group> ReadGroups()
         {
-            IList<Group> groups = new List<Group>();
+            List<Group> groups = new List<Group>();
 
             groups = conn.Table<Group>().ToList();
 
             return groups;
         }
+
 
         /// <summary>
         /// Writes the group.
