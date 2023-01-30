@@ -3,6 +3,7 @@ D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-ios\iossimulator-x64\MyVoiceApp3.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-ios\iossimulator-x64\MyVoiceApp3.pdb
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-ios\iossimulator-x64\CommunityToolkit.Maui.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-ios\iossimulator-x64\CommunityToolkit.Maui.Core.dll
+D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.Data.Sqlite.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.Extensions.Configuration.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.Extensions.Configuration.Abstractions.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.Extensions.DependencyInjection.dll
@@ -18,7 +19,9 @@ D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-ios\iossimulator-x64\SQLite-net.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-ios\iossimulator-x64\SQLitePCLRaw.batteries_v2.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-ios\iossimulator-x64\SQLitePCLRaw.nativelibrary.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-ios\iossimulator-x64\SQLitePCLRaw.core.dll
+D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-ios\iossimulator-x64\SQLitePCLRaw.lib.e_sqlite3.ios.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-ios\iossimulator-x64\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-ios\iossimulator-x64\SQLitePCLRaw.provider.internal.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.CSharp.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.VisualBasic.Core.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.VisualBasic.dll
@@ -225,6 +228,7 @@ D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-ios\iossimulator-x64\libxamarin-dotne
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-ios\iossimulator-x64\libxamarin-dotnet-debug.dylib
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-ios\iossimulator-x64\libxamarin-dotnet.a
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-ios\iossimulator-x64\libxamarin-dotnet.dylib
+D:\vsprojects\MyVoiceApp3\obj\Debug\net7.0-ios\iossimulator-x64\build-signature\signature
 D:\vsprojects\MyVoiceApp3\obj\Debug\net7.0-ios\iossimulator-x64\mauiimage.inputs
 D:\vsprojects\MyVoiceApp3\obj\Debug\net7.0-ios\iossimulator-x64\mauifont.inputs
 D:\vsprojects\MyVoiceApp3\obj\Debug\net7.0-ios\iossimulator-x64\mauisplash.inputs
@@ -275,6 +279,3 @@ D:\vsprojects\MyVoiceApp3\obj\Debug\net7.0-ios\iossimulator-x64\refint\MyVoiceAp
 D:\vsprojects\MyVoiceApp3\obj\Debug\net7.0-ios\iossimulator-x64\MyVoiceApp3.pdb
 D:\vsprojects\MyVoiceApp3\obj\Debug\net7.0-ios\iossimulator-x64\MyVoiceApp3.genruntimeconfig.cache
 D:\vsprojects\MyVoiceApp3\obj\Debug\net7.0-ios\iossimulator-x64\ref\MyVoiceApp3.dll
-D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.Data.Sqlite.dll
-D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-ios\iossimulator-x64\SQLitePCLRaw.lib.e_sqlite3.ios.dll
-D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-ios\iossimulator-x64\SQLitePCLRaw.provider.internal.dll

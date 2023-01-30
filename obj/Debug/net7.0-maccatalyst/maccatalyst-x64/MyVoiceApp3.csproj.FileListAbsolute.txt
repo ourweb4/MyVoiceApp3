@@ -3,6 +3,7 @@ D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\MyVoiceAp
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\MyVoiceApp3.pdb
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\CommunityToolkit.Maui.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\CommunityToolkit.Maui.Core.dll
+D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Data.Sqlite.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Configuration.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Configuration.Abstractions.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.DependencyInjection.dll
@@ -19,6 +20,8 @@ D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\SQLitePCL
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\SQLitePCLRaw.nativelibrary.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\SQLitePCLRaw.core.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\libe_sqlite3.dylib
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.CSharp.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.VisualBasic.Core.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.VisualBasic.dll
@@ -265,6 +268,3 @@ D:\vsprojects\MyVoiceApp3\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\refint\My
 D:\vsprojects\MyVoiceApp3\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\MyVoiceApp3.pdb
 D:\vsprojects\MyVoiceApp3\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\MyVoiceApp3.genruntimeconfig.cache
 D:\vsprojects\MyVoiceApp3\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\ref\MyVoiceApp3.dll
-D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Data.Sqlite.dll
-D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\SQLitePCLRaw.provider.e_sqlite3.dll
-D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\libe_sqlite3.dylib

@@ -47,7 +47,7 @@ namespace MyVoiceApp3.Pages
         /// </summary>
         public LoginPage()
         {
-            CheckLogon();
+  //         CheckLogon();
             InitializeComponent();
 
             BindingContext = logindata;

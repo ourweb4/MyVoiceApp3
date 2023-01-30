@@ -4,7 +4,7 @@
              x:Class="MyVoiceApp3.Pages.LoginPage"  Title="LoginPage"
              xmlns:ViewModel="clr-namespace:MyVoiceApp3.ViewModels"
              x:DataType="ViewModel:LoginVM"
-             Shell.FlyoutBehavior="Disabled"
+             Shell.FlyoutBehavior="Flyout"
              Shell.NavBarIsVisible="False">
         <ContentPage.Padding>
             <OnPlatform x:TypeArguments="Thickness">

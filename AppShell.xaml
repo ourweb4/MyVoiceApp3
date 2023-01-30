@@ -6,9 +6,13 @@
     xmlns:local="clr-namespace:MyVoiceApp3.Pages"
     Shell.FlyoutBehavior="Disabled">
 
-    <ShellItem Route="LoginPage" FlyoutItemIsVisible="False" >
+    <!--<ShellItem Route="LoginPage" FlyoutItemIsVisible="False" >
         <ShellContent ContentTemplate="{DataTemplate local:LoginPage}" />
-    </ShellItem>
+    </ShellItem>-->
+
+    <FlyoutItem Title="Login/Logout"  Route="LoginPage">
+        <ShellContent ContentTemplate="{DataTemplate local:LoginPage}" />
+    </FlyoutItem>
 
     <FlyoutItem Title="Home" Route="TalkPage">
         <ShellContent ContentTemplate="{DataTemplate local:TalkPage}" />

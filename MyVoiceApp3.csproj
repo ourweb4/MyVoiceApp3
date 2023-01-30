@@ -1,5 +1,4 @@
-﻿
-  <Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<TargetFrameworks>net7.0-android;net7.0-ios;net7.0-maccatalyst</TargetFrameworks>
 		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net7.0-windows10.0.19041.0</TargetFrameworks>
@@ -14,6 +13,7 @@
 		<!-- Display name -->
 		<ApplicationTitle>MyVoiceApp3</ApplicationTitle>
 
+    
 		<!-- App Identifier -->
 		<ApplicationId>net.ourweb.myvoiceapp3</ApplicationId>
 		<ApplicationIdGuid>1b8aaf8c-6822-4ea6-94d0-e56e1708ca85</ApplicationIdGuid>

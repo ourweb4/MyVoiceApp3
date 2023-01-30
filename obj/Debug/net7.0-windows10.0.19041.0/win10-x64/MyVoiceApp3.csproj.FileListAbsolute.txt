@@ -8,6 +8,7 @@ D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resourc
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Maui.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Maui.Core.dll
+D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Data.Sqlite.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Configuration.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Configuration.Abstractions.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.DependencyInjection.dll
@@ -40,6 +41,7 @@ D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SQLiteP
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.nativelibrary.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.core.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.provider.e_sqlite3.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.Canvas.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.dll
 D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\e_sqlite3.dll
@@ -331,5 +333,3 @@ D:\vsprojects\MyVoiceApp3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifi
 D:\vsprojects\MyVoiceApp3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 D:\vsprojects\MyVoiceApp3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 D:\vsprojects\MyVoiceApp3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
-D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Data.Sqlite.dll
-D:\vsprojects\MyVoiceApp3\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.provider.e_sqlite3.dll
